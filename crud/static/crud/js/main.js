@@ -29,7 +29,7 @@ function confirmDelete(id) {
   }).then(result => {
     if (result.isConfirmed) {
       const form = document.getElementById('delete-form');
-      form.action = `/${id}/delete/`;
+      form.action = `/items/delete/${id}/`;
       form.submit();
     }
   });

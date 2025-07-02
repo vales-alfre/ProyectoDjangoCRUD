@@ -1,0 +1,48 @@
+# Entorno virtual
+venv_crud/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración locales
+*.sqlite3
+*.log
+
+# Archivos de entorno
+*.env
+.env.*
+
+# Archivos estáticos compilados
+staticfiles/
+media/
+
+# Migraciones (opcional: si prefieres versionarlas, elimínalas)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.exe
+*.dll
+*.so
+*.dylib

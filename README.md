@@ -1,6 +1,6 @@
 # Proyecto Django CRUD
 
-Este proyecto contiene una aplicaci\u00f3n de ejemplo en Django que implementa operaciones CRUD usando Bootstrap para los estilos y SweetAlert2 para las alertas.
+Este proyecto contiene una aplicacion de ejemplo en Django que implementa operaciones CRUD usando Bootstrap para los estilos y SweetAlert2 para las alertas.
 
 ## Requisitos
 
@@ -13,11 +13,12 @@ Instala las dependencias con:
 pip install -r requirements.txt
 ```
 
-## Ejecuci\u00f3n
+## Ejecucion
 
 Aplica las migraciones y ejecuta el servidor de desarrollo:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
