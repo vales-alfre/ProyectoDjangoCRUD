@@ -18,10 +18,7 @@ __pycache__/
 staticfiles/
 media/
 
-# Migraciones (opcional: si prefieres versionarlas, elimínalas)
-*/migrations/*.py
-*/migrations/*.pyc
-!*/migrations/__init__.py
+
 
 # IDEs y editores
 .vscode/
