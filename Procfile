@@ -1,1 +1,1 @@
-web: gunicorn crud_project.wsgi:application --bind 0.0.0.0:$PORT
+web: gunicorn crud_project.wsgi:application --bind 0.0.0.0:8000 --pid /var/pids/web.pid
