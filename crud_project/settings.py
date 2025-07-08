@@ -55,7 +55,7 @@ DATABASES = {
         'NAME': 'bdCrud',
         'USER': 'django',
         'PASSWORD': '123456',
-        'HOST': '44.210.190.246',
+        'HOST': 'localhost', 
         'PORT': '3306',
     }
 }
