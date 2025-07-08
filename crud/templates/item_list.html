@@ -33,11 +33,12 @@
               >
                 <i class="fas fa-edit"></i>
               </a>
-              <button
-                class="btn btn-sm btn-outline-danger"
-                onclick="confirmDelete({{ item.pk }})"
+              <a 
+                href="{% url 'item_delete' item.pk %}"
+                class="btn btn-sm btn-outline-danger me-1"
                 title="Eliminar"
               >
+              
                 <i class="fas fa-trash"></i>
               </button>
             </td>
