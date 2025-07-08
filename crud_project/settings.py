@@ -52,8 +52,8 @@ WSGI_APPLICATION = 'crud_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tienda',
-        'USER': 'django',
+        'NAME': 'bdCrud',
+        'USER': 'root',
         'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': '3306',
