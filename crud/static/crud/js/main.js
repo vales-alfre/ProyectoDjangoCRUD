@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-function confirmDelete(id) {
+
+window.confirmDelete = function(id) {
   Swal.fire({
     title: '¿Eliminar item?',
     icon: 'warning',
@@ -33,4 +34,4 @@ function confirmDelete(id) {
       form.submit();
     }
   });
-}
+};
